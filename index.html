@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<title>BMI : Body Mass Index Calculate </title>
+</head>
+
+<body>
+
+	<div class="container">
+		<h1 class="title"><span class="highlight">BMI</span> Calculator with <span class="highlight">Vanilla Js </span>
+		</h1>
+
+		<div class="input-group">
+			<label for="weight" id="wlabel">Enter Your Weight (kg) :</label>
+			<input type="number" id="weight" />
+		</div>
+		<div class="input-group">
+			<label for="height" id="hlabel">Enter Your Height (inch) :</label>
+			<input type="number" id="height" />
+		</div>
+		<div class="input-group btn-group">
+			<button class="success" id="successBtn">Calculate</button>
+			<div class="spacer"></div>
+			<button class="danger" id="resetBtn">Reset</button>
+		</div>
+	</div>
+	<div class="container mtop result">
+		<p>
+			Your BMI Is :
+			<span id="bmi">_________</span>
+		</p>
+		<p class="bmi_texts" id="bmi_text"></p>
+
+		<div class="flow">
+			
+			<a href="https://github.com/abdurrahman200">Github</a>
+			<a href="https://www.facebook.com/Abdur.rahman.akaid/">facebook</a>
+		
+		</div>
+	</div>
+	<script src="./main.js"></script>
+</body>
+
+</html>
